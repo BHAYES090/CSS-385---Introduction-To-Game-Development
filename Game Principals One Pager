@@ -1,0 +1,111 @@
+Game Design Principles in FromSoftware Games
+Author: Bobby Hayes  
+Course: CSS 385 – Game Development  
+Assignment: Game Design Principles – One Pager 
+Date: 10/5/25
+
+
+Game Design Principles are fundamental beliefs or philosophies that guide how a designer structures gameplay, pacing, and player experience.  
+They serve as the "rules behind the rules" — not visible to players, but deeply shaping how they feel and behave during play.
+
+FromSoftware games (Dark Souls, Bloodborne, Sekiro, Elden Ring) are especially known for their consistent but player-driven design philosophy, where difficulty, exploration, and discovery form a cohesive emotional journey.  
+This one-pager highlights three key principles reflected in these titles:  
+
+1. Player Adaptivity / Dynamic Difficulty Adjustment  
+2. Teach Without Teaching (Implicit Learning)
+3. Give Players a Feeling of Accomplishment (Meaningful Challenge)
+
+1. Player Adaptivity / Dynamic Difficulty Adjustment
+
+Definition:  
+Player Adaptivity (or Dynamic Difficulty Adjustment, DDA) is the concept of adapting game systems to match player skill, pace, and decision-making to maintain engagement. Instead of scaling enemies or levels automatically, the game subtly offers players the freedom to adjust their own difficulty.
+
+Example in FromSoftware Titles:  
+Unlike many modern games, FromSoftware doesn’t use traditional DDA. Instead, adaptivity emerges naturally through player choice.
+In Elden Ring, players can choose to explore easier regions before tackling tougher ones, summon allies for help, use Spirit Ashes, or respec their build.  
+Similarly, Dark Souls allows summoning help, or choosing specific routes (e.g., Catacombs vs. Undead Burg) that dramatically alter difficulty early in the game.
+
+Pros:
+- Keeps players in the “flow zone” — the sweet spot between boredom and frustration.  
+- Empowers players to define their own challenge level.  
+- Encourages experimentation and creativity (e.g., trying new builds, weapons, or routes).
+
+Cons:
+- Some players may unknowingly make the game much harder (e.g., wandering into Caelid too early).  
+- No formal difficulty selection can alienate players expecting explicit scaling.  
+- Balancing emergent adaptivity can be unpredictable across playstyles.
+
+How I’d Use It: 
+I believe adaptability is the core of good design. In my own games, I’d incorporate a feedback system that tracks player success and subtly tweaks challenge — perhaps through smarter enemy AI or more generous checkpoints — without removing the player’s agency.  
+FromSoftware proves you can maintain fairness and tension without ever telling players the game is adapting.
+
+2. Teach Without Teaching (Implicit Learning)
+
+Definition:  
+“Teach Without Teaching” means designing the environment, enemies, and situations to teach players naturally — without text boxes or tutorials. This promotes intuitive learning through observation, experimentation, and failure.
+
+Example in FromSoftware Titles:
+The first encounter in Dark Souls with the Asylum Demon teaches players that not every fight should be faced head-on. Running, exploring, and finding new tools (like the hidden plunge attack) are key takeaways — no text required.  
+In Sekiro, enemy posture mechanics are introduced gradually through low-risk duels before being fully tested in boss fights like Genichiro Ashina.
+
+Pros:
+- Fosters deep player immersion and curiosity.  
+- Encourages pattern recognition and mastery.  
+- Rewards attentiveness and experimentation.
+
+Cons:
+- Some players miss intended lessons and become frustrated.  
+- Can feel inaccessible to those new to the genre.  
+- High cognitive demand — learning feels like solving a puzzle.
+
+How I’d Use It:
+In my own design, I would embed learning opportunities inside gameplay loops — like giving the player a low-stakes scenario that mirrors a future boss pattern.  
+For example, before a boss that demands parrying, I might introduce a weaker enemy that relies heavily on blockable attacks, subtly teaching the mechanic.
+
+3. Give Players a Feeling of Accomplishment (Meaningful Challenge)
+
+Definition:
+This principle emphasizes designing encounters that feel difficult but fair, creating genuine satisfaction when players overcome them. The feeling of accomplishment must come from earned mastery, not luck or external assistance.
+
+Example in FromSoftware Titles:
+Few moments in gaming compare to defeating Ornstein & Smough in Dark Souls, Lady Maria in Bloodborne, or Malenia in Elden Ring. These encounters demand patience, learning, and mechanical growth. The player’s sense of triumph is amplified by the game’s refusal to lower the bar — 
+you must rise to meet it.
+
+Pros:
+- Creates powerful emotional payoffs that players remember for years.  
+- Builds player confidence and identity (“I beat that boss”).  
+- Reinforces skill progression as a narrative experience.
+
+Cons:
+- Can cause frustration or player burnout.  
+- Some players may perceive the challenge as elitist or unfair.  
+- High learning curves can discourage casual audiences.
+
+How I’d Use It:
+I would maintain high-stakes difficulty but offer flexible solutions: multiple strategies, environmental tools, and different playstyles.  
+Like FromSoftware, I’d focus on consistency over comfort — players may fail repeatedly, but success will always feel deserved.
+
+Sources (Non-AI)
+1. Csikszentmihalyi, Mihaly. Flow: The Psychology of Optimal Experience. Harper & Row, 1990.  
+2. Extra Credits. “Adaptive Difficulty: How Games Balance Challenge and Fun.” YouTube, 2012.  
+3. VaatiVidya. “Dark Souls and the Joy of Overcoming Difficulty.” YouTube, 2018.  
+4. Hodent, Celia. The Gamer’s Brain: How Neuroscience and UX Can Impact Video Game Design. CRC Press, 2017.  
+5. FromSoftware Titles: Dark Souls (2011), Bloodborne (2015), Sekiro: Shadows Die Twice (2019), Elden Ring (2022).
+
+
+AI Usage Disclosure
+This document was developed with assistance from ChatGPT (GPT-5) to organize and articulate original ideas in formal academic writing.  
+Prompt used:  
+> “My PROF for CSS 385 @ UW Bothell says that a "Game Design Principle" is “Fundamental beliefs that are recommended and/or followed when designing a game” Some basic design principles he suggested are: 
+    - Introduce New Elements in Isolation 
+    - Give Players a Feeling of Accomplishment 
+    - Teach Without Teaching 
+I believe that game design should always be adaptable to the player, so that people can stay engaged without feeling bored or "stuck." What kind of game design principle would represent this? 
+Can you please keep the games discussed only within the FromSoftware/Bandai Namco series of games?”
+
+
+Summary
+Each principle plays a vital role in why FromSoftware games resonate with players:
+- Player Adaptivity sustains engagement through freedom and exploration.  
+- Implicit Learning deepens immersion by letting players learn through action.  
+- Meaningful Challenge gives triumph emotional weight and personal identity.  
