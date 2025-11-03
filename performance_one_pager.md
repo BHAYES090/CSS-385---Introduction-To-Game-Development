@@ -28,3 +28,4 @@ These combined strategies align with my goal of achieving consistent frame rates
 - Gregory, Jason. Game Engine Architecture, 3rd Edition, CRC Press, 2018.  
 - Unity Technologies. “Optimizing Game Performance.” Unity Manual, 2025.  
 - Unreal Engine Documentation. “Performance and Profiling.” Epic Games, 2025.  
+   
