@@ -1,0 +1,13 @@
+For games similar to mine, which draw inspiration from Soulslike design, media items such as environmental soundscapes, atmospheric music tracks, short lore-driven cinematics, 
+in-engine cutscenes, and character voice lines are commonly used to reinforce tone, guide player emotion, and deliver worldbuilding without interrupting gameplay. Many of these 
+games also integrate item description text, environmental art, boss introduction stingers, and subtle ambient cues to create immersion and communicate challenge or danger. 
+
+To integrate these kinds of media into a game, one effective strategy is event-driven media activation, where audio or video triggers based on player location, 
+combat state, or story progression. This approach keeps the experience dynamic and responsive, but it can be more complex to implement because it requires careful
+timing, scripting, and performance considerations. Another strategy is embedding media directly into level design, such as baked-in ambient sound loops, static 
+UI-driven item descriptions, or pre-placed cutscene triggers. This method is more stable and predictable but risks feeling less organic if overused or placed too 
+rigidly. For my own project, I would use a hybrid event-driven approach with selective embedded assets so that the game feels reactive, atmospheric, and tightly connected 
+to player actions. 
+
+This aligns with the style of games that rely heavily on environmental storytelling and emotional tone. It also gives me the flexibility to scale content over time, 
+maintain performance, and ensure that every piece of media serves a deliberate gameplay function rather than becoming noise.
