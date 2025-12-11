@@ -1,0 +1,39 @@
+1. Unreal SaveGame Objects (.sav files)
+Pros:
+- Built into Unreal Engine, so it integrates cleanly with Blueprints and C++.
+- Automatically handles serialization of simple variables (health, position, level state, etc.).
+- Cross-platform friendly because Unreal manages the file location and format.
+- Easy to call from Blueprints using “Create Save Game Object”, “Save Game to Slot”, and “Load Game from Slot”.
+
+Cons:
+- Best suited for relatively small sets of data; not ideal for huge datasets or very complex custom formats.
+- Less transparent on disk (binary format), harder to inspect or edit manually.
+- Requires some setup to keep the SaveGame class in sync with any changes in game state variables.
+
+2. Config / INI Files
+Pros:
+- Simple key–value style storage; good for settings (volume, resolution, keybinds).
+- Human-readable and easy to edit outside the game.
+- Unreal already supports config files for engine and game settings.
+
+Cons:
+- Not ideal for frequently changing gameplay data like player position, enemy states, or inventory.
+- Can become messy if overused for complex state.
+- Requires more manual bookkeeping and parsing if used beyond simple settings.
+
+3. Custom JSON or Text/Binary Files
+Pros:
+- Very flexible and human-readable (for JSON/text).
+- Easy to extend the format later (e.g., add extra fields) without breaking everything.
+- Can be useful if you want to share data with other tools or services.
+
+Cons:
+- Requires extra work: choosing a JSON plugin or writing custom serialization code.
+- More error-prone if not carefully structured (e.g., missing fields, versioning issues).
+- Potential performance concerns if saving/loading very frequently or with large files.
+
+CHOSEN SOLUTION
+I chose Unreal’s built-in SaveGame system as the main storage mechanism for my pause-menu Save and Load buttons. It fits the scope of this project because:
+- It is supported directly in Unreal 5.7 with Blueprint nodes, so I can implement it quickly.
+- It cleanly handles saving core gameplay data like player position, health, and level progress.
+- It avoids the overhead of building my own file format or JSON pipeline, which would be overkill for a prototype.
