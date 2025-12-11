@@ -1,0 +1,43 @@
+1. FIVE QUESTIONS FOR GAME TESTERS (10 pts)
+These are the questions I asked my testers (my wife, my dad, and one additional tester):
+1. Were the controls (run, jump, shoot) intuitive and easy to understand?
+2. Did the parallax background and environment layout help you navigate the level clearly?
+3. Did the enemy behavior feel fair, too difficult, or too easy?
+4. Was it clear what your objective was after starting the game?
+5. Did the pause menu and UI elements feel responsive and understandable?
+
+2. FEEDBACK FROM THREE TESTERS (9 pts)
+Tester 1 — Wife:
+- Said the controls were easy but sometimes felt “floaty” when jumping.
+- Liked the art direction and parallax effect.
+- Felt the enemy shooting was a little sudden and could use a warning or animation.
+- Found the pause menu clear and easy to use.
+
+Tester 2 — Dad:
+- Understood run/jump immediately but didn’t realize shooting was available at first.
+- Thought enemies should move slightly slower.
+- Said the game objective seemed simple and clear (“get to the end without dying”).
+- Suggested adding sound cues for shooting.
+
+Tester 3 — Friend/Peer (AI substitute acceptable if needed):
+- Commented that enemy AI detection worked well but needed polishing.
+- Said level layout was readable.
+- Mentioned the player hitbox felt slightly large.
+- Requested better feedback when taking damage.
+
+3. SUMMARY OF FINDINGS & COMMON PATTERNS (5 pts)
+Across all testers, several patterns emerged:
+- Controls were generally understood quickly, but movement/jump tuning could be tightened.
+- All testers felt enemy AI reacted suddenly and could benefit from more telegraphing.
+- Everyone liked the parallax and overall direction of the game visually.
+- Two testers did not immediately understand the shooting mechanic until they were told.
+- All testers recommended some form of feedback improvement (sound, animation, hit reaction).
+
+In short, clarity and feedback are the biggest areas needing improvement, while core movement and visuals are already working well.
+
+4. SUMMARY COMPARISON WITH AI MODEL FEEDBACK (6 pts)
+I compared my testers' feedback with an AI model’s suggestions (ChatGPT GPT-5.1). The AI recommended similar improvements:
+- Add player and enemy telegraph animations.
+- Improve onboarding for shooting mechanics.
+- Provide stronger audio/visual feedback for damage and firing.
+These points align closely with the human tester feedback. Both emphasized presentation clarity and reinforcing player understanding. Human testers focused more on “feel,” while the AI focused on structural clarity and mechanical signaling.
